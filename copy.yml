@@ -1,7 +1,7 @@
 ---
 - name: Let's copy our executable script to remote location, execute script and get result back.
   remote_user: ubuntu
-  hosts: webservers
+  hosts: 172.31.29.88
   tasks:
      - name: Transfer executable script script
        copy: src=k8s.yml dest=/home/ubuntu/ mode=0777
