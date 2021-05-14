@@ -2,7 +2,7 @@
 - name: Let's copy our executable script to remote location, execute script and get result back.
   remote_user: ubuntu
   sudo: yes
-  hosts: crunchify-group
+  hosts: webserver
   tasks:
      - name: Transfer executable script script
        copy: src=k8s.yml dest=/home/ubuntu mode=0777
