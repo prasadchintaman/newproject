@@ -8,4 +8,3 @@
  
      - name: Execute the script
        command: kubectl apply -f k8s.yml
----
