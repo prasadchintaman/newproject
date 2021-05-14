@@ -1,4 +1,4 @@
-
+---
 - name: Let's copy our executable script to remote location, execute script and get result back.
   remote_user: ubuntu
   hosts: webserver
@@ -8,3 +8,4 @@
  
      - name: Execute the script
        command: kubectl apply -f k8s.yml
+---
