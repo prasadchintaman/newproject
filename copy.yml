@@ -4,8 +4,8 @@
   hosts: 172.31.29.88
   tasks:
      - name: Transfer executable script script
-       copy: src=k8s.yml dest=/home/ubuntu/ mode=0777
+       copy: lll.yml dest=/home/ubuntu/ mode=0777
  
      - name: Execute the script
-       command: kubectl apply -f k8s.yml
+       command: pwd
 ...
